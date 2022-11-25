@@ -4,7 +4,7 @@
 <h3>Перечень работ</h3>
 <table>
 <tr><th align="center">Название</th><th align="center">Статус</th><th align="center">Ссылка</th></tr>
-<tr><td align="center">Автопарк</td><td align="center">🔴</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/tree/main/Autopark" target="_blank">Перейти</a></td></tr>
+<tr><td align="center">Автопарк</td><td align="center">🔴</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/blob/main/Autopark/Autopark.cs" target="_blank">Перейти</a></td></tr>
 </table>
 <h3>Статусы выполнения:</p>
 <p>🔴 Не готово</p>
