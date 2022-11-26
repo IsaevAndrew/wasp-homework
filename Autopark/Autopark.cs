@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 namespace Applicaion
 {
     public class Car
     {
-        private string brand;
-        private int power;
-        private int year;
+        protected string brand;
+        protected int power;
+        protected int year;
         public Car(string brand, int power, int year)
         {
             this.brand = brand;
@@ -20,8 +20,8 @@ namespace Applicaion
 
     public class PassengerCar : Car
     {
-        private int passengers;
-        private Dictionary<string, int> details = new Dictionary<string, int>();
+        protected int passengers;
+        protected Dictionary<string, int> details = new Dictionary<string, int>();
         public PassengerCar(string brand, int power, int year, int passengers, Dictionary<string, int> details) : base(brand, power, year)
         {
             this.passengers = passengers;
@@ -50,9 +50,9 @@ namespace Applicaion
     }
     public class Truck : Car
     {
-        private int max_weight;
-        private string name_of_driver;
-        private Dictionary<string, int> cargo = new Dictionary<string, int>();
+        protected int max_weight;
+        protected string name_of_driver;
+        protected Dictionary<string, int> cargo = new Dictionary<string, int>();
         public Truck(string brand, int power, int year, int max_weight,string name_of_driver, Dictionary<string, int> cargo) : base(brand, power, year)
         {
             this.max_weight = max_weight;
@@ -87,7 +87,7 @@ namespace Applicaion
     }
     public class Autopark
     {
-        private string name;
+        protected string name;
         List<Car> autopark = new List<Car>();
         public Autopark(string name, List<Car> autopark)
         {
