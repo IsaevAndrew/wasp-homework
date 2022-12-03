@@ -7,6 +7,7 @@
 <tr><td align="center">Homework1</td><td align="center">🟡</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/blob/main/Homework_1"target="_blank">Перейти</a></td></tr>
 <tr><td align="center">Autopark</td><td align="center">🟡</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/blob/main/Autopark/Autopark.cs" target="_blank">Перейти</a></td></tr>
 <tr><td align="center">MusicStore</td><td align="center">🟡</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/blob/main/MusicStore/MusicDisk.cs" target="_blank">Перейти</a></td></tr>
+<tr><td align="center">PasswordCheck</td><td align="center">🟡</td><td align="center"><a href="https://github.com/IsaevAndrew/wasp-homework/tree/main/PasswordCheck">Перейти</a></td></tr>
 </table>
 <h3>Статусы выполнения:</p>
 <p>🔴 Не готово</p>
